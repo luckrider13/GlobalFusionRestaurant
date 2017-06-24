@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context="com.example.android.globalfusionrestaurant.MainActivity">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Welcome,guest!"
+    android:textColor="@android:color/black"
+    android:textStyle="bold"
+    android:textSize="12sp"
+    android:layout_marginBottom="20dp"
+
+    />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/android_gf_icon"
+        android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address- 301, Senapati Bapat marg, Lower Parel 400021"
+            android:textColor="@android:color/black"
+            android:textStyle="italic"
+            android:layout_marginBottom="8dp"
+
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact- +91 9930785634"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout>
